@@ -49,7 +49,7 @@ while True:
 
 	if disk_space.total < disk_threshold:
 		print("Error - Available disk space is less than 20%")
-		messsage['subject'] = "Error - Available disk space is less than 20%"
+		message['subject'] = "Error - Available disk space is less than 20%"
 		mail_server.send_message(message)
 
 #report an error if available memory is less than 500MB
