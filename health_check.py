@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 
 import psutil
 import time
@@ -83,10 +83,6 @@ while True:
 
 	#Sleep for 60 seconds before the next check 
 	time.sleep(60)
-
-
-
-
 
 
 
