@@ -7,6 +7,8 @@ from email.message import EmailMessage
 import smtplib
 import logging
 
+#set up basic logging configuration
+
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 #Email variables
@@ -45,7 +47,6 @@ def send_email(subject):
 #health checks
 
 while True:
-
 
     #report an error if CPU usage is over 80%
     cpu_percent = psutil.cpu_percent()
